@@ -65,7 +65,7 @@ public class InstanceManager implements IMStarHandler {
 	
 	
 	public static void setWaitTime(int time) {
-		mLogger.info("Tracker wait time=" + time);
+		mLogger.info("Tracker wait time [sec]=" + time);
 		mWaitTime = time;
 	}
 	
